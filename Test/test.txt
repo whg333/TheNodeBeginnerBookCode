@@ -1,0 +1,35 @@
+建树形结构
+mkdir a b c c/g c/h
+touch a/d a/e b/f c/g/i c/g/j c/h/k
+
+图2-87
+mkdir x
+mv c/g/i c/g/j c/h/k a
+mv a/d a/e b/f x
+rm -rf b c
+
+图2-88
+mv c/g/i c/g/j c/h/k a/e b
+mv b/f ./
+rm -rf c
+
+图2-89
+mv [abc] x
+
+图2-90
+mv a/c* c
+mv b/a* a
+mv c/b* b
+
+图2-91
+mkdir -p x x/f x/g
+mv a/f* x/f
+mv a/g* e  x/g
+mv c d x
+rmdir a
+
+图2-92
+mv a/i a/j a/b/d a/b/e ./
+mv a/b/c/a.exe a
+mv a/b/c/* a/b
+rmdir a/b/c
