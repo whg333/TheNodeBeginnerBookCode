@@ -1,4 +1,8 @@
 # TheNodeBeginnerBookCode
+[《The Node Beginner Book》](http://www.amazon.com/Node-Beginner-Book-Manuel-Kiessling/dp/1471628442/ref=sr_1_1?s=books&ie=UTF8&qid=1460993190&sr=1-1&keywords=The+Node+Beginner+Book) source code
+
+![book](http://ecx.images-amazon.com/images/I/51EF6RCuJkL._SX351_BO1,204,203,200_.jpg)
+
 NodeJS书籍[《The Node Beginner Book》](http://book.douban.com/subject/11540736/)的源代码
 
 ## 个人豆瓣评论
